@@ -1,0 +1,81 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"23 D:\LAPTRINHVIDIEUKHIEN\Dieukhien2led7thanh.X\dieukhien.c
+[v _display_number display_number `(v  1 e 1 0 ]
+"36
+[v _main main `(i  1 e 2 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"21 D:\LAPTRINHVIDIEUKHIEN\Dieukhien2led7thanh.X\dieukhien.c
+[v _segments_code segments_code `[10]uc  1 e 10 0 ]
+"36
+[v _main main `(i  1 e 2 0 ]
+{
+"49
+[v main@j_46 j `uc  1 a 1 2 ]
+"44
+[v main@j j `uc  1 a 1 1 ]
+"48
+[v main@i_45 i `uc  1 a 1 0 ]
+"43
+[v main@i i `uc  1 a 1 3 ]
+"54
+} 0
+"23
+[v _display_number display_number `(v  1 e 1 0 ]
+{
+[v display_number@number number `uc  1 a 1 wreg ]
+"25
+[v display_number@donvi donvi `uc  1 a 1 11 ]
+"24
+[v display_number@chuc chuc `uc  1 a 1 10 ]
+"23
+[v display_number@number number `uc  1 a 1 wreg ]
+[v display_number@number number `uc  1 a 1 12 ]
+"35
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
